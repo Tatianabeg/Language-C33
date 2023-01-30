@@ -10,7 +10,7 @@ import pygame
 pygame.init()
 screen = pygame.display.set_mode((500,500))
 pygame.display.set_caption("func_graph")
-all_sprites=pygame.sprite.Group()
+all_sprites=pygame.sprite.graph()
 clock = pygame.time.Clock()
 running = True
 fps=60
